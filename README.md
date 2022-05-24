@@ -34,33 +34,44 @@
 For this challenge I used as a base Mundo Aventura a theme park located in Bogota, I focused on the attractions and restaurants, to meet the requirements were implemented
 15 use cases triggered by commands and 2 use cases triggered by events.
 
-<img width="1024" alt="Calculator" src="https://github.com/johnnycastro72/calculator/blob/main/Sum%20Function.png">
+## Sum Function
+<img width="1024" alt="Sum" src="https://github.com/johnnycastro72/calculator/blob/main/Sum%20Function.png">
+
+## Subtract Function
+<img width="1024" alt="Subtract" src="https://github.com/johnnycastro72/calculator/blob/main/Subtract%20Function.png">
+
+## Product Function
+<img width="1024" alt="Product" src="https://github.com/johnnycastro72/calculator/blob/main/Product%20Function.png">
+
+## Divide Function with errors
+<img width="1024" alt="Divide with errors" src="https://github.com/johnnycastro72/calculator/blob/main/Function%20divide%20with%20error.png">
+
+## Divide Function
+<img width="1024" alt="Divide" src="https://github.com/johnnycastro72/calculator/blob/main/Divide%20Function.png">
 
 ### Prerequisites
 
 - [Java JDK](https://www.oracle.com/java/technologies/downloads/#java11) - Java programming language
 - [Apache Maven](https://maven.apache.org/download.cgi) - Software project management
 - [Intellij IDEA](https://www.jetbrains.com/idea/download/#section=windows) - IDE for software developers
-- Sofka DDD dependencies.
 
 ### Installing
 
 Download and install all tools and frameworks on your local desktop and select a directory to clone this repository.
 
 ```
-git clone https://github.com/johnnycastro72/corparques.git
-cd corparques
+git clone https://github.com/johnnycastro72/calculator.git
+cd calculator
 Intellij IDEA download and install all dependencies
 ```
 
 ### And coding style tests
 
-This project was developed using java as programming language based on OOP paradigm, [spring boot initilz](https://start.spring.io/).
+This project was developed using java as programming language based on Functional paradigm.
 
 ## 🎈 Usage <a name="usage"></a>
 
-This it's a backend you don need use, but it's possible do request with postman
-
+Just execute the project
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -75,8 +86,8 @@ This it's a backend you don need use, but it's possible do request with postman
 
 - Hat tip to anyone whose code was used
 - Inspiration
-  Practical challenge proposed by Sofka as part of its course Domain Driven Design.
+  Practical challenge proposed by Sofka as part of its course Functional and reactive programming.
 - References
   Sofka course memories.
-  Santiago Posada videos.
-  Raul Alzate videos.
+  Mishell Yagual Mendoza videos.
+  Eddi Garcia videos.
