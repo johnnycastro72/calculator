@@ -20,15 +20,20 @@ public class Calculator {
         return (n > m) ? divide(subtract.calculate(n, m), m, ++s) : s+1;
     }
 
+    static String resultDivide(Integer n, Integer m) {
+        if (n.equals(0)) return "0";
+        if (m.equals(0)) return "Error";
+        return divide(n, m, 0).toString();
+    }
 
     public static void main(String[] args) {
 
         System.out.println("Sum: " + sum.calculate(5,4));
         System.out.println("Subtract: " + subtract.calculate(10,5));
         System.out.println("Product: " + product(6,6));
-        System.out.println("Divide 0/10: " + divide(0,10, 0));
-        System.out.println("Divide 10/2: " + divide(10,2, 0));
-        System.out.println("Divide 10/0: " + divide(10,0, 0));
+        System.out.println("Divide 0/10: " + resultDivide(0,10));
+        System.out.println("Divide 10/2: " + resultDivide(10,2));
+        System.out.println("Divide 10/0: " + resultDivide(10,0));
 
     }
 }
