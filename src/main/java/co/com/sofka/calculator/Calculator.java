@@ -16,12 +16,19 @@ public class Calculator {
         return (m != 0) ? sum.calculate(n, product(n, m-1)) : 0; // recursive call
     }
 
+    static Integer divide( Integer n, Integer m, Integer s) {
+        return (n > m) ? divide(subtract.calculate(n, m), m, ++s) : s+1;
+    }
+
 
     public static void main(String[] args) {
 
         System.out.println("Sum: " + sum.calculate(5,4));
         System.out.println("Subtract: " + subtract.calculate(10,5));
         System.out.println("Product: " + product(6,6));
+        System.out.println("Divide 0/10: " + divide(0,10, 0));
+        System.out.println("Divide 10/2: " + divide(10,2, 0));
+        System.out.println("Divide 10/0: " + divide(10,0, 0));
 
     }
 }
