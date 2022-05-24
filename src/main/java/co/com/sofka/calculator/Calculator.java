@@ -1,5 +1,12 @@
 package co.com.sofka.calculator;
 
+/**
+ * This class implements an integer calculator with four operators
+ *
+ * @version 1.0.0 23/05/2022
+ * @author Jhonny Castro johnny.castro@misena.edu.co
+ * @since 1.0.0
+ */
 public class Calculator {
 
     static IOperation sum = (a,b) -> {
